@@ -1,0 +1,5 @@
+﻿Model,Full Name,Seed Removed,LLM Removed,Total Removed,Retained,Schema Valid,Schema Rate
+Gemini,Gemini 2.5 Pro,196,115,311,574,115,1.0000
+GPT,GPT-4.1,196,300,496,395,300,1.0000
+Qwen,Qwen3-235B-A22B,196,606,802,109,606,1.0000
+DeepSeek,DeepSeek-R1-0528,196,127,323,570,127,1.0000

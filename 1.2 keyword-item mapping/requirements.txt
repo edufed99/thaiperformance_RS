@@ -1,0 +1,5 @@
+# Requirements for keyword-item mapping project
+# Python standard library modules (no install needed): argparse, csv, re, sys, unicodedata, pathlib, collections, typing
+
+# Fuzzy string matching library
+rapidfuzz>=3.0.0
