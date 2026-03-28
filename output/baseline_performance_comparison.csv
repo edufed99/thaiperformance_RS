@@ -1,0 +1,5 @@
+System,nDCG@10,HR@10,MRR@10,Parity vs Proposed (%)
+Full proposed system,0.8362,0.9748,0.7905,100.0
+Pre-filter + CBF only,0.7439,0.9085,0.6917,88.96
+Post-filter baseline,0.8367,0.9735,0.7916,100.06
+No-policy baseline,0.8239,0.9654,0.7774,98.53

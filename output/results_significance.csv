@@ -1,0 +1,25 @@
+comparison,metric,MAX_CANDS,delta_mean,test,p_value,n_users,ci_low,ci_high
+Hybrid-Best vs CF-LightGCN,nDCG@10,50,0.09566,Wilcoxon,0.0,156,,
+Hybrid-Best vs CF-LightGCN,nDCG@10,50,0.09566,Bootstrap95CI,,156,0.075889,0.115657
+Hybrid-Best vs POP-Global,nDCG@10,50,0.597192,Wilcoxon,0.0,156,,
+Hybrid-Best vs POP-Global,nDCG@10,50,0.597192,Bootstrap95CI,,156,0.568612,0.625789
+Hybrid-Best vs POP-Context,nDCG@10,50,0.597192,Wilcoxon,0.0,156,,
+Hybrid-Best vs POP-Context,nDCG@10,50,0.597192,Bootstrap95CI,,156,0.568612,0.625789
+Hybrid-Best vs CBF-multilingual-e5-large,nDCG@10,50,0.070083,Wilcoxon,0.0,156,,
+Hybrid-Best vs CBF-multilingual-e5-large,nDCG@10,50,0.070083,Bootstrap95CI,,156,0.050252,0.09071
+Hybrid-Best vs CF-LightGCN,nDCG@10,100,0.107018,Wilcoxon,0.0,156,,
+Hybrid-Best vs CF-LightGCN,nDCG@10,100,0.107018,Bootstrap95CI,,156,0.086202,0.127615
+Hybrid-Best vs POP-Global,nDCG@10,100,0.617976,Wilcoxon,0.0,156,,
+Hybrid-Best vs POP-Global,nDCG@10,100,0.617976,Bootstrap95CI,,156,0.587281,0.64862
+Hybrid-Best vs POP-Context,nDCG@10,100,0.617976,Wilcoxon,0.0,156,,
+Hybrid-Best vs POP-Context,nDCG@10,100,0.617976,Bootstrap95CI,,156,0.587281,0.64862
+Hybrid-Best vs CBF-multilingual-e5-large,nDCG@10,100,0.092667,Wilcoxon,0.0,156,,
+Hybrid-Best vs CBF-multilingual-e5-large,nDCG@10,100,0.092667,Bootstrap95CI,,156,0.073031,0.113125
+Hybrid-Best vs CF-LightGCN,nDCG@10,200,0.088888,Wilcoxon,0.0,156,,
+Hybrid-Best vs CF-LightGCN,nDCG@10,200,0.088888,Bootstrap95CI,,156,0.068406,0.109915
+Hybrid-Best vs POP-Global,nDCG@10,200,0.598313,Wilcoxon,0.0,156,,
+Hybrid-Best vs POP-Global,nDCG@10,200,0.598313,Bootstrap95CI,,156,0.568114,0.628365
+Hybrid-Best vs POP-Context,nDCG@10,200,0.598313,Wilcoxon,0.0,156,,
+Hybrid-Best vs POP-Context,nDCG@10,200,0.598313,Bootstrap95CI,,156,0.568114,0.628365
+Hybrid-Best vs CBF-multilingual-e5-large,nDCG@10,200,0.109448,Wilcoxon,0.0,156,,
+Hybrid-Best vs CBF-multilingual-e5-large,nDCG@10,200,0.109448,Bootstrap95CI,,156,0.089243,0.129962

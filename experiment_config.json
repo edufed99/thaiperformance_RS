@@ -1,0 +1,107 @@
+{
+  "SEEDS": [
+    42,
+    123,
+    999,
+    2024,
+    555
+  ],
+  "K": 10,
+  "POSITIVE_THRESHOLD": 4,
+  "MAX_CANDS_LIST": [
+    50,
+    100,
+    200
+  ],
+  "ENABLE_CONTEXT_FILTERING": true,
+  "CONTEXT_PREFILTER_CF_TRAINING": true,
+  "RATING_SCALE_MIN": 1,
+  "RATING_SCALE_MAX": 5,
+  "RATING_FLOOR": 0.2,
+  "NEGATIVE_PENALTY_ALPHA": 1.0,
+  "EMBEDDING_MODELS": [
+    "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+    "airesearch/wangchanberta-base-att-spm-uncased",
+    "intfloat/multilingual-e5-large",
+    "BAAI/bge-m3",
+    "Qwen/Qwen2-0.5B"
+  ],
+  "CF_MODELS_TO_TEST": [
+    "SVD",
+    "ItemKNN",
+    "NCF",
+    "LightGCN"
+  ],
+  "B_RANGE_CF": [
+    0.0,
+    0.02,
+    0.05,
+    0.08,
+    0.1,
+    0.15,
+    0.2,
+    0.3
+  ],
+  "B_RANGE_CBF": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.3
+  ],
+  "ALPHA_RANGE_HYBRID": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.25,
+    0.4,
+    0.5,
+    0.6,
+    0.75,
+    0.85,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "ENABLE_FUZZY_CTX": true,
+  "FUZZY_CUTOFF": 0.86,
+  "MIN_CANDS": 50,
+  "CAP_CTX_POOL": 2000,
+  "QK_MIN": 2,
+  "QK_MAX": 4,
+  "SVD_CFG": {
+    "dim": 128,
+    "epochs": 40,
+    "lr": 0.01,
+    "l2": 0.0001,
+    "batch_size": 4096
+  },
+  "NCF_CFG": {
+    "dim": 128,
+    "h1": 512,
+    "h2": 256,
+    "epochs": 30,
+    "lr": 0.001,
+    "l2": 1e-05,
+    "batch_size": 4096
+  },
+  "KNN_CFG": {
+    "k_neighbors": 80,
+    "shrink": 10.0
+  },
+  "LGCN_CFG": {
+    "dim": 128,
+    "layers": 3,
+    "epochs": 40,
+    "lr": 0.0005,
+    "l2": 1e-06,
+    "batch_size": 2048,
+    "n_negs": 5
+  },
+  "n_users": 156,
+  "n_items": 114,
+  "n_users_all": 156,
+  "n_users_excluded": 0
+}

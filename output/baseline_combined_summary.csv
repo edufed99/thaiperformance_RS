@@ -1,0 +1,5 @@
+System,Eligibility stage,Ranking space,Signals used,nDCG@10,HR@10,MRR@10,Main purpose
+Full proposed system,Pre-ranking,Eligible pool,CBF + CF + Fusion,0.8362,0.9748,0.7905,Proposed
+Pre-filter + CBF only,Pre-ranking,Eligible pool,CBF only,0.7439,0.9085,0.6917,Ablation (no CF/fusion)
+Post-filter baseline,Post-ranking,Full pool then filtered,CBF + CF + Fusion,0.8367,0.9735,0.7916,Alternative design (late binding)
+No-policy baseline,None,Full pool,CBF + CF + Fusion,0.8239,0.9654,0.7774,Unconstrained baseline

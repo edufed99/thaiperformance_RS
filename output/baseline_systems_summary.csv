@@ -1,0 +1,5 @@
+System,Eligibility stage,Ranking space,Signals used,Main purpose,Key advantage
+Full proposed system,Pre-ranking,Eligible pool,CBF + CF + Fusion,Proposed,Combined signals + gated pool
+Pre-filter + CBF only,Pre-ranking,Eligible pool,CBF only,Ablation (no CF/fusion),Isolates CBF contribution
+Post-filter baseline,Post-ranking,Full pool then filtered,CBF + CF + Fusion,Alternative design (late binding),No candidate shrinkage
+No-policy baseline,None,Full pool,CBF + CF + Fusion,Unconstrained baseline,Performance ceiling test

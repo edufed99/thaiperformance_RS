@@ -1,0 +1,5 @@
+Model,attempted_runs,successful_runs,feasible_cases_total,missing_combos,status
+CF-SVD,15,15,2340,[],✅ COMPLETE
+CF-ItemKNN,15,15,2340,[],✅ COMPLETE
+CF-NCF,15,15,2340,[],✅ COMPLETE
+CF-LightGCN,15,15,2340,[],✅ COMPLETE
